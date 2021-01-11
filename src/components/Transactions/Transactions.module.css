@@ -1,0 +1,36 @@
+table {
+  border-spacing: 0 10px;
+  font-family: Roboto, sans-serif;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin: auto;
+}
+th {
+  padding: 10px 20px;
+  background: rgba(216, 216, 216, 0.603);
+  color: black;
+  border-right: 1px solid black;
+  font-size: 0.9em;
+}
+th:first-child {
+  text-align: left;
+}
+th:last-child {
+  border-right: none;
+}
+td {
+  vertical-align: middle;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  border-top: 1px solid rgba(216, 216, 216, 0.603);
+  border-bottom: 1px solid rgba(216, 216, 216, 0.603);
+  border-right: 1px solid rgba(216, 216, 216, 0.603);
+}
+td:first-child {
+  border-left: 1px solid rgba(216, 216, 216, 0.603);
+  border-right: 1px solid rgba(216, 216, 216, 0.603);
+}
+td:nth-child(2) {
+  text-align: left;
+}

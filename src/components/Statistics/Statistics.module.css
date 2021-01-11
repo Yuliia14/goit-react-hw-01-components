@@ -1,0 +1,37 @@
+.text {
+  font-family: Roboto, sans-serif;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: white;
+}
+
+.list {
+  display: flex;
+
+  width: 330px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.item {
+  display: inline-block;
+  text-align: center;
+  word-wrap: normal;
+  padding: 15px;
+  border: 1px solid rgba(71, 71, 71, 0.13);
+  background-color: rgba(216, 216, 216, 0.966);
+}
+
+.label {
+  composes: text;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 2;
+}
+
+.percentage {
+  composes: text;
+  font-weight: 700;
+  font-size: 16px;
+}

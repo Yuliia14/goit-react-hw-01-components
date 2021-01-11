@@ -1,0 +1,98 @@
+.user {
+  width: 300px;
+  height: 360px;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(216, 216, 216, 0.603);
+}
+.description {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  margin: auto;
+
+  border-radius: 5px;
+  background-color: white;
+}
+.avatar {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  margin: auto;
+  width: 120px;
+  border-radius: 100px;
+  box-shadow: 0 0 10px rgba(21, 75, 21, 0.5);
+}
+
+.text {
+  font-family: Roboto, sans-serif;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.name {
+  composes: text;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-weight: 700;
+}
+
+.tag {
+  composes: text;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-weight: 500;
+  font-size: 13px;
+  color: grey;
+}
+
+.location {
+  composes: text;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-weight: 500;
+  font-size: 13px;
+  color: grey;
+}
+
+.stats {
+  display: flex;
+  width: 250px;
+  padding: 0;
+  margin: auto;
+}
+
+.item {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgba(71, 71, 71, 0.13);
+  background-color: rgba(216, 216, 216, 0.966);
+}
+
+.label {
+  composes: text;
+  font-weight: 500;
+  font-size: 13px;
+  color: grey;
+}
+
+.quantity {
+  composes: text;
+  font-weight: 700;
+  font-size: 15px;
+  color: black;
+}

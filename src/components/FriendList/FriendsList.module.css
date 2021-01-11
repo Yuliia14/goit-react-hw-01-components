@@ -1,0 +1,25 @@
+.list {
+  width: 330px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 0;
+}
+.item {
+  width: 200px;
+  height: 60px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.status {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+}
+.avatar {
+  margin: 10px;
+}
