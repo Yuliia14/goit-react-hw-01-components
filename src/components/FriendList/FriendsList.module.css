@@ -21,5 +21,12 @@
   border-radius: 20px;
 }
 .avatar {
-  margin: 10px;
+  margin: 20px;
+}
+
+.name {
+  font-family: Roboto, sans-serif;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: black;
 }
